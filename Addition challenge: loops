@@ -1,4 +1,4 @@
-#1___________________________________________
+#1_____________________________________________________________________________________________________________________________________________________
 a = 0
 while a < 50:
     b = int(input("1. insert a number here: "))
@@ -6,13 +6,13 @@ while a < 50:
     print('the total is now', a)
 if a >= 50:
     print ("it's over 50 now")
-#2____________________________________________________________________________________________
+#2_____________________________________________________________________________________________________________________________________________________
 c = int(input("2.give me a number: "))
 while c < 5:
     c=int(input("I don't like this number, put another one: "))
 if c > 5:
     print("Oh, you actually did. Uh. . .The last number y-you put in was",c,". . . Nailed it")
-#3______________________________________________________________
+#3________________________________________________________________________________________________________________________________________________________
 d=int(input("3.insert a number here: "))
 e=int(input("insert another number here: "))
 d= d + e
@@ -23,7 +23,7 @@ while f == 'y':
     f=input("do you wish to insert another number?: ")
 if f == 'n':
     print ("fair enough, your final answer is:",d)
-#4______________________________________________________________________________
+#4__________________________________________________________________________________________________________________________________________________
 h= 0
 i=input("4.do you wish to invite someone to your party?: ")
 while i == 'y': 
@@ -32,7 +32,7 @@ while i == 'y':
     i=input("invite sent, do you wish to invite someone else to your party?: ")
 if i == 'n':
     print ("you have invited",h,"people to your party" )
-#5___________________________________________________________________________
+#5______________________________________________________________________________________________________________________________________________________
 compnum = 50
 k = 0
 j = int(input("5.guess which number I am?: "))
@@ -46,13 +46,39 @@ while j < compnum:
     j = int(input("guess again: "))
 if j == compnum:
     print ("you got it right! it only took you",k,"times to get it right")
-#6
+#6________________________________________________________________________________________________________________________________________________________
 l = int(input("6.give me a number between 10 and 20: "))
 while l > 20:
     print("Too high")
     l = int(input("TRY AGAIN: "))
+    if l < 10:
+         print ("Too low")
+         l = int(input("TRY AGAIN: "))
 while l < 10:
     print ("Too low")
     l = int(input("TRY AGAIN: "))
+    if l > 20:
+         print("Too high")
+         l = int(input("TRY AGAIN: "))
 if l > 10 and l < 20:
     print ("this is all I ask for, thank you")
+#7____________________________________________________________________________________________________________________________________________________________
+grn = 10
+print ("There are",grn,"green bottles hanging on the wall,",grn,"green bottles hanging on the wall, and if 1 green bottle should accidentally fall")
+gus=int(input("how many bottles are on the wall?: "))
+if gus == 9:
+    while gus > 0:
+        grn = grn - 1
+        print("There are",grn,"green bottles hanging on the wall,",grn,"green bottles hanging on the wall, and if 1 green bottle should accidentally fall")
+        gus=int(input("how many bottles are on the wall?: "))
+        if gus == 0:
+            print ("there are no more green bottles hanging on the wall")
+else:
+    print ("try again")
+    gus=int(input("how many bottles are on the wall?: "))
+    while gus > 0:
+        grn = grn - 1
+        print("There are",grn,"green bottles hanging on the wall,",grn,"green bottles hanging on the wall, and if 1 green bottle should accidentally fall")
+        gus=int(input("how many bottles are on the wall?: "))
+        if gus == 0:
+            print ("there are no more green bottles hanging on the wall")
