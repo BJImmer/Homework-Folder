@@ -51,7 +51,7 @@ Johnny=int(input("Enter number here: "))
 Gyro=0
 Funny=1
 if Johnny<=0:
-    print("The Output of your input is",Johnny)
+    print("What you get is",Johnny)
 else:
     print(Gyro,Funny,end=" ")
     for x in range(2,Johnny):
