@@ -1,1 +1,61 @@
-
+import math
+#1________________________________________________________________________
+egg_cartons = 12
+eggs_input = int(input("type amount of eggs inserted into carton: "))
+filled_Cartons = eggs_input // egg_cartons
+left_over = eggs_input % egg_cartons
+print ("you have filled over",filled_Cartons, "cartons of eggs")
+print ("what you have left over is",left_over,"eggs")
+#2______________________________________
+a = int(input("type number A here: "))
+b = int(input("type number B here: "))
+c = a % b
+if c == 0:
+    print("this two are divisible")
+elif c != 0:
+    print("this two are not divisible")
+#3_______________________________________________________
+d = float(input("type number A here: "))
+e = float(input("type number B here: "))
+f = d * e
+g = math.sqrt (f)
+print ("the square root of your two numbers are",g)
+#4_________________________________________________________
+v = float(input("insert velocity here: "))
+v2 = v**2 - 4 *-4.9*1100
+t = v - math.sqrt (v2)
+t = t - 2 * 4.9
+t = round (t,2)
+print ("the time of the falling parcel is",t,"seconds")
+#5_____________________________________________________________________________________
+h = int(input("insert Canadien dollars here: "))
+i = h * 41.62
+i = round (i,2)
+print ("in my country, The philippines, that would be",i,"pesos, our currency")
+#6_______________________________________________________
+j = int(input("insert Radius here: "))
+k = int(input("insert Height here: "))
+Area = j * k * math.pi * 2
+Area = round (Area,2)
+Volume = j + k * j * math.pi * 2
+Volume = round (Volume,2)
+Area = round (Area,2)
+print ("the volume of this cylinder is",Volume,"cm^3")
+print ("the area of this cylander is",Area,"cm^2")
+#7________________________________________
+l = int(input("insert multiple here: "))
+for l in range (0,20,l):
+    print(l,"is a multiple")
+#8___________________________________________________
+Johnny=int(input("Enter number here: "))
+Gyro=0
+Funny=1
+if Johnny<=0:
+    print("The Output of your input is",Johnny)
+else:
+    print(Gyro,Funny,end=" ")
+    for x in range(2,Johnny):
+        Diego =Gyro + Funny
+        print(Diego,end=" ")
+        Gyro=Funny
+        Funny=Diego
