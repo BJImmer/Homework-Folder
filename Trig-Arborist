@@ -1,1 +1,10 @@
-
+import math
+b = int(input("insert adjacent: "))
+C = int(input("insert angle of inclination here: "))
+B = 180 - 90  - C
+B = math.radians (B)
+C = math.radians (C)
+c = b / math.sin (B) * math.sin(C)
+d = c + 1.65
+d = round (d,2)
+print ("the tree is:",d,"meters tall")
