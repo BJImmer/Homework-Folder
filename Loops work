@@ -1,1 +1,72 @@
+#While Loops:
+#3________________________________________________________________________________________________________________________________________________________
+d=int(input("3.insert a number here: "))
+e=int(input("insert another number here: "))
+d= d + e
+f=input("do you wish to insert another number?: ")
+while f == 'y': 
+    g = int(input("very well, insert another number here: "))
+    d= d + g
+    f=input("do you wish to insert another number?: ")
+if f == 'n':
+    print ("fair enough, your final answer is:",d)
+#5______________________________________________________________________________________________________________________________________________________
+compnum = 50
+k = 0
+j = int(input("5.guess which number I am?: "))
+while j > compnum:
+    k = k + 1
+    print ("too high")
+    j = int(input("guess again: "))
+while j < compnum:
+    k = k + 1
+    print ("too low")
+    j = int(input("guess again: "))
+if j == compnum:
+    print ("you got it right! it only took you",k,"times to get it right")
+#For Loops:
+#5_________________________________________________________________
+total = 0
+x = int(input("insert varieble here: "))
+y = 'yes'
+n = 'no'
+z = input('do you wish to add this number: ')
+for i in range(4):
+    if z == y:
+        total = total + x
+        print ("number added")
+        x = int(input("insert another variable here: "))
+        z = input('do you wish to add this number: ')
+    elif z == n:
+         print ("very well then")
+         x = int(input("insert another variable here: "))
+         z = input('do you wish to add this number: ')
+print ("the total is:",total)
 
+#6_________________________________________________________________
+Direction = input("how do you want to count (up or down)?: ")
+if Direction == 'up':
+    u = int(input("Add a number under twenty: "))
+    for i in range(u,20,1):
+        print(i)
+elif Direction == 'down':
+    h = int(input("Add a number under twenty: "))
+    for i in range(20,h,-1):
+        print (i)
+else:
+    print ("I asked simply up or down")
+#Challenges Loop:
+#4__________________________________________
+a = int(input("insert starting number: "))
+b = int(input("insert ending number: "))
+for i in range (a,b,1):
+    print (i)
+#6__________________________________________________________
+c = int(input("insert a number here: "))
+y = 'yes'
+e = input("do you wish to multiply by 2?: ")
+while e == y:
+    c = c * 2
+    e = (input("do you wish to multiply it again?: "))
+else:
+    print("the result is:",c)
