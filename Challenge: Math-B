@@ -1,0 +1,26 @@
+import math
+from fractions import Fraction
+radius = int(input("please insert Radius here: "))
+if radius == 0:
+    print ("that won't work, restart the program")
+else:
+    def areaOC (x):
+        return math.pi*x**2
+    ResultC = areaOC (radius)
+    ResultC = round (ResultC, 3)
+    print ("Area of circle is:",ResultC,"cm")
+    def volumeOCy (a,y):
+        return math.pi*a**2*y
+    ResultCy = volumeOCy (radius,10)
+    ResultCy = round (ResultCy,3)   
+    print ("volume of cylinder is",ResultCy,"cm")
+    def volumeOS(a,x,y):
+        return Fraction (x,y)*math.pi*a**2
+    ResultOS = volumeOS (radius,3,4)
+    ResultOS = round (ResultOS, 3)
+    print ("volume of sphere is:",ResultOS,"cm")
+    def volumeOC0(a,x,y,z):
+        return Fraction (x,y)*math.pi*a**2*z
+    ResultOC0 = volumeOC0 (radius,3,4,10)
+    ResultOC0 = round (ResultOC0, 3)
+    print ("volume of cone is",ResultOC0,"cm")
