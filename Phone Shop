@@ -1,0 +1,1062 @@
+print ("Welcome, what phone plan do you want? Do you want a McBasic, a Average Joe, or the Rich Kid Pro:")
+Options = input("please input your choice: ")
+if Options == 'McBasic':
+    McBasic = 50
+    Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+    if Case == 'Rubber':
+        McBasic = McBasic + 20
+        Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+        if Charger == 'yes':
+            McBasic = McBasic + 100
+            print ("that will be",McBasic,"$")
+        elif Charger == 'no':
+            print ("very well, that will be",McBasic,"$")
+        else:
+            print ("what ever you said, makes no sense, anyway, that will be",McBasic,"$")
+    elif Case == 'Carbon Fibre':
+        McBasic = McBasic + 35
+        Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+        if Charger == 'yes':
+            McBasic = McBasic + 100
+            print ("that will be",McBasic,"$")
+        elif Charger == 'no':
+            print ("very well, that will be",McBasic,"$")
+        else:
+            print ("what ever you said, makes no sense, anyway, that will be",McBasic,"$")
+    else:
+        print ("I will guess that means no case")
+        Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+        if Charger == 'yes':
+            McBasic = McBasic + 100
+            print ("that will be",McBasic,"$")
+        elif Charger == 'no':
+            print ("very well, that will be",McBasic,"$")
+        else:
+            print ("what ever you said, makes no sense, anyway, that will be",McBasic,"$")
+if Options == 'Average Joe':
+    Average_Joe = 150
+    Storage = input("Do you wish to add 64GB, or 128GB of storage?: ")
+    if Storage == '64GB':
+        Average_Joe = Average_Joe + 200
+        Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+        if Cloud == '1 year':
+            Average_Joe = Average_Joe + 20
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+        elif Cloud == '2 year':
+            Average_Joe = Average_Joe + 35
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+        else:
+            print ("I guess no Cloud Data then")
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+    elif Storage == '128GB':
+        Average_Joe = Average_Joe + 350
+        Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+        if Cloud == '1 year':
+            Average_Joe = Average_Joe + 20
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+        elif Cloud == '2 year':
+            Average_Joe = Average_Joe + 35
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+                
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+        else:
+            print ("I guess no Cloud Data then")
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+    else:
+        print ("no extra storage? alright")
+        Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+        if Cloud == '1 year':
+            Average_Joe = Average_Joe + 20
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+        elif Cloud == '2 year':
+            Average_Joe = Average_Joe + 35
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+        else:
+            print ("I guess no Cloud Data then")
+            Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+            if Case == 'Rubber':
+                Average_Joe = Average_Joe + 20
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no': 
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            elif Case == 'Carbon Fibre':
+                Average_Joe = Average_Joe + 35
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+            else:
+                print ("I will guess that means no case")
+                Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                if Charger == 'yes':
+                    Average_Joe = Average_Joe + 100
+                    print ("that will be",Average_Joe,"$")
+                elif Charger == 'no':
+                    print ("very well, that will be",Average_Joe,"$")
+                else:
+                    print ("what ever you said, makes no sense, anyway, that will be",Average_Joe,"$")
+if Options == 'Rich Kid Pro':
+    RKP = 800
+    Storage = input("Do you wish to add 64GB, or 128GB of storage?: ")
+    if Storage == '64GB':
+        RKP = RKP +200
+        DIU = input ("do you want Diamonds on your phone?: ")
+        if DIU == 'yes':
+            RKP = RKP + 200
+            Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+            if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+        elif DIU == 'no':
+            print ("Smart Idea")
+            Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+            if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+        else:
+            print ("I will assume no Diamonds")
+            Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+            if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+    elif Storage == '128GB':
+        RKP = RKP + 350
+        DIU = input ("do you want Diamonds on your phone?: ")
+        if DIU == 'yes':
+            RKP = RKP + 200
+            Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+            if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+        elif DIU == 'no':
+            print ("Smart Idea")
+            Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+            if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+        else:
+            print ("I will assume no Diamonds")
+            Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+            if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+            else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+    else:
+        print ("no extra storage? alright")
+        Cloud = input ("Do you want 1 or 2 years of Cloud Data?: ")
+        if Cloud == '1 year':
+                RKP = RKP + 20
+                Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                        print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+        elif Cloud == '2 year':
+                 RKP = RKP + 35
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                    RKP = RKP + 20
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                    elif Charger == 'no': 
+                        print ("very well, that will be",RKP,"$")
+                    else:
+                     print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                    RKP = RKP + 35
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                    print ("I will guess that means no case")
+                    Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                    if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                    elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                    else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+        else:
+                 print ("I guess no Cloud Data then")
+                 Case = input("Do you wish to give this a Rubber or a Carbon Fibre phone case?: ")
+                 if Case == 'Rubber':
+                     RKP = RKP + 20
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no': 
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                          print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 elif Case == 'Carbon Fibre':
+                     RKP = RKP + 35
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                         RKP = RKP + 100
+                         print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
+                 else:
+                     print ("I will guess that means no case")
+                     Charger = input("Finally, do you wish to add a fast Battery Charger?: ")
+                     if Charger == 'yes':
+                        RKP = RKP + 100
+                        print ("that will be",RKP,"$")
+                     elif Charger == 'no':
+                         print ("very well, that will be",RKP,"$")
+                     else:
+                         print ("what ever you said, makes no sense, anyway, that will be",RKP,"$")
